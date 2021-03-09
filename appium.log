@@ -1,0 +1,1231 @@
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m   DEPRECATION WARNING:
+[35m[Appium][39m 
+[35m[Appium][39m   The 'automationName' capability was not provided in the desired 
+[35m[Appium][39m   capabilities for this Android session
+[35m[Appium][39m 
+[35m[Appium][39m   Setting 'automationName=UiAutomator2' by default and using the 
+[35m[Appium][39m   UiAutomator2 Driver
+[35m[Appium][39m 
+[35m[Appium][39m   The next major version of Appium (2.x) will **require** the 
+[35m[Appium][39m   'automationName' capability to be set for all sessions on all 
+[35m[Appium][39m   platforms
+[35m[Appium][39m 
+[35m[Appium][39m   In previous versions (Appium <= 1.13.x), the default was 
+[35m[Appium][39m   'automationName=UiAutomator1'
+[35m[Appium][39m 
+[35m[Appium][39m   If you wish to use that automation instead of UiAutomator2, please 
+[35m[Appium][39m   add 'automationName=UiAutomator1' to your desired capabilities
+[35m[Appium][39m 
+[35m[Appium][39m   For more information about drivers, please visit 
+[35m[Appium][39m   http://appium.io/docs/en/about-appium/intro/ and explore the 
+[35m[Appium][39m   'Drivers' menu
+[35m[Appium][39m 
+[35m[Appium][39m ======================================================================
+[35m[Appium][39m 
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up

@@ -1,0 +1,63 @@
+Now using node v8.5.0 (npm v5.3.0)
+2020-11-24 14:39:56,906 - factory - DEBUG - --------SEQUENCE GENERATOR CREATED----------
+2020-11-24 14:39:56,906 - __main__ - DEBUG - ------------EXPLORER CREATED-----------------
+2020-11-24 14:39:56,906 - framework.exploration - DEBUG - Activity name is /home/UNT/sp0809/git/autodroid/apps/YourLocalWeather-debug.apk
+2020-11-24 14:39:56,906 - framework.exploration - DEBUG - ---------------INSIDE TRY BLOCK----------------------------
+2020-11-24 14:39:56,906 - appiumatic.exploration.sequence - DEBUG - -------------INSIDE INITIALIZED----------.
+2020-11-24 14:39:56,906 - appiumatic.exploration.sequence - DEBUG - -------------START TIME----------.
+2020-11-24 14:39:56,928 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{"platformName": "Android", "appium:deviceName": "Android Emulator", "appium:app": "/home/UNT/sp0809/git/autodroid/apps/YourLocalWeather-debug.apk", "appium:newCommandTimeout": 3600, "appium:autoGrantPermissions": true, "appium:fullReset": true, "appium:disableWindowAnimation": true, "appium:appWaitActivity": "*", "appium:udid": "emulator-5554"}]}, "desiredCapabilities": {"platformName": "Android", "deviceName": "Android Emulator", "app": "/home/UNT/sp0809/git/autodroid/apps/YourLocalWeather-debug.apk", "newCommandTimeout": 3600, "autoGrantPermissions": true, "fullReset": true, "disableWindowAnimation": true, "appWaitActivity": "*", "udid": "emulator-5554"}}
+2020-11-24 14:39:56,929 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2020-11-24 14:40:01,828 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session HTTP/1.1" 200 1171
+2020-11-24 14:40:01,829 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:01,829 - appiumatic.exploration.sequence - DEBUG - -------------SET UP STRATEGY----------.
+2020-11-24 14:40:01,829 - appiumatic.exploration.sequence - DEBUG - -------------LAUNCH EVENT CREATED----------.
+2020-11-24 14:40:01,829 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source {}
+2020-11-24 14:40:02,404 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source HTTP/1.1" 200 8309
+2020-11-24 14:40:02,404 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,405 - ui_analysis - DEBUG - Found actionable widgets: {'click': [{'selector': 'id', 'selectorValue': 'android:id/button1', 'description': 'NEXT', 'type': 'Button', 'state': 'enabled'}], 'long-click': [], 'check': [], 'uncheck': [], 'swipe-up': [], 'swipe-down': [], 'swipe-right': [], 'swipe-left': [], 'text-entry': []}
+2020-11-24 14:40:02,405 - ui_analysis - DEBUG - Found 1 possible actions.
+2020-11-24 14:40:02,406 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity {}
+2020-11-24 14:40:02,426 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity HTTP/1.1" 200 25
+2020-11-24 14:40:02,426 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,427 - ui_analysis - DEBUG - Current state: {'activityName': '.MainActivity', 'stateId': '45a857ed72c0d78063a2d70e267bc5d55bb96ec4'}
+2020-11-24 14:40:02,427 - appiumatic.exploration.sequence - DEBUG - -------------CURRENT STATE----------.
+2020-11-24 14:40:02,427 - appiumatic.exploration.sequence - DEBUG - -------------EVENT SYNTHESIZED----------.
+2020-11-24 14:40:02,427 - appiumatic.exploration.sequence - DEBUG - -------------TC INITIALIZATION COMPLETE----------.
+2020-11-24 14:40:02,427 - framework.exploration - DEBUG - --------------SEQUENCE GENERATOR INITIALIZED---------------
+2020-11-24 14:40:02,450 - framework.utils.adb - INFO - Process id for org.thosp.yourlocalweather is /home/UNT/sp0809/Android/Sdk/platform-tools/adb.
+2020-11-24 14:40:02,450 - framework.exploration - DEBUG - ---------------PROCESS ID ASSIGNED-----------------------
+2020-11-24 14:40:02,450 - framework.strategies.termination - INFO - Checking probabilistic test termination criterion...
+2020-11-24 14:40:02,450 - appiumatic.exploration.sequence - DEBUG - SEQUENCE--------------CHOOSE EVENT--------------
+2020-11-24 14:40:02,450 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source {}
+2020-11-24 14:40:02,483 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source HTTP/1.1" 200 8309
+2020-11-24 14:40:02,484 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,484 - ui_analysis - DEBUG - Found actionable widgets: {'click': [{'selector': 'id', 'selectorValue': 'android:id/button1', 'description': 'NEXT', 'type': 'Button', 'state': 'enabled'}], 'long-click': [], 'check': [], 'uncheck': [], 'swipe-up': [], 'swipe-down': [], 'swipe-right': [], 'swipe-left': [], 'text-entry': []}
+2020-11-24 14:40:02,484 - ui_analysis - DEBUG - Found 1 possible actions.
+2020-11-24 14:40:02,484 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity {}
+2020-11-24 14:40:02,502 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity HTTP/1.1" 200 25
+2020-11-24 14:40:02,502 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,502 - ui_analysis - DEBUG - Current state: {'activityName': '.MainActivity', 'stateId': '45a857ed72c0d78063a2d70e267bc5d55bb96ec4'}
+2020-11-24 14:40:02,502 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source {}
+2020-11-24 14:40:02,538 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source HTTP/1.1" 200 8309
+2020-11-24 14:40:02,538 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,538 - ui_analysis - DEBUG - Found actionable widgets: {'click': [{'selector': 'id', 'selectorValue': 'android:id/button1', 'description': 'NEXT', 'type': 'Button', 'state': 'enabled'}], 'long-click': [], 'check': [], 'uncheck': [], 'swipe-up': [], 'swipe-down': [], 'swipe-right': [], 'swipe-left': [], 'text-entry': []}
+2020-11-24 14:40:02,539 - ui_analysis - DEBUG - Found 1 possible actions.
+2020-11-24 14:40:02,539 - framework.strategies.selection - INFO - Making frequency_weighted selection from 3 available events.
+2020-11-24 14:40:02,539 - framework.utils.selection - DEBUG - Selected event with weight 0.0.
+2020-11-24 14:40:02,539 - appiumatic.exploration.sequence - DEBUG - SEQUENCE--------------PROCESS NEXT EVENT--------------
+2020-11-24 14:40:02,539 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/element {"using": "id", "value": "android:id/button1"}
+2020-11-24 14:40:02,556 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/element HTTP/1.1" 200 137
+2020-11-24 14:40:02,556 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:02,556 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/element/5c3d200a-a5e2-49c6-8d93-b56b806d3124/click {"id": "5c3d200a-a5e2-49c6-8d93-b56b806d3124"}
+2020-11-24 14:40:02,595 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "POST /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/element/5c3d200a-a5e2-49c6-8d93-b56b806d3124/click HTTP/1.1" 200 14
+2020-11-24 14:40:02,595 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:04,596 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source {}
+2020-11-24 14:40:04,674 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/source HTTP/1.1" 200 9070
+2020-11-24 14:40:04,674 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:04,675 - ui_analysis - DEBUG - Found actionable widgets: {'click': [{'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1]', 'description': "Don't update location", 'type': 'CheckedTextView', 'state': 'enabled'}, {'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[2]', 'description': 'Update location (recommended)', 'type': 'CheckedTextView', 'state': 'enabled'}, {'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[3]', 'description': 'Update location without GPS', 'type': 'CheckedTextView', 'state': 'enabled'}, {'selector': 'id', 'selectorValue': 'android:id/button2', 'description': 'PREVIOUS', 'type': 'Button', 'state': 'enabled'}, {'selector': 'id', 'selectorValue': 'android:id/button1', 'description': 'NEXT', 'type': 'Button', 'state': 'enabled'}], 'long-click': [], 'check': [{'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[1]', 'description': "Don't update location", 'type': 'CheckedTextView', 'state': 'enabled'}, {'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[3]', 'description': 'Update location without GPS', 'type': 'CheckedTextView', 'state': 'enabled'}], 'uncheck': [{'selector': 'xpath', 'selectorValue': '/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.appcompat.widget.LinearLayoutCompat/android.widget.FrameLayout/android.widget.ListView/android.widget.CheckedTextView[2]', 'description': 'Update location (recommended)', 'type': 'CheckedTextView', 'state': 'enabled'}], 'swipe-up': [], 'swipe-down': [], 'swipe-right': [], 'swipe-left': [], 'text-entry': []}
+2020-11-24 14:40:04,675 - ui_analysis - DEBUG - Found 8 possible actions.
+2020-11-24 14:40:04,675 - selenium.webdriver.remote.remote_connection - DEBUG - GET http://127.0.0.1:4723/wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity {}
+2020-11-24 14:40:04,691 - urllib3.connectionpool - DEBUG - http://127.0.0.1:4723 "GET /wd/hub/session/e9bf1b00-727e-4746-9f9e-f42b8eb80415/appium/device/current_activity HTTP/1.1" 200 25
+2020-11-24 14:40:04,692 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2020-11-24 14:40:04,692 - ui_analysis - DEBUG - Current state: {'activityName': '.MainActivity', 'stateId': 'f81c30508df57ddd3ce68ece2cee4b9b4aee127a'}
+2020-11-24 14:40:04,692 - __main__ - CRITICAL - A fatal error occurred: 'Executor' object has no attribute 'adb_info'
