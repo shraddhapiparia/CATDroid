@@ -7,7 +7,6 @@ from ui_analysis import get_available_events, get_current_state
 from hashing import generate_sequence_hash, generate_event_hash
 from exploration.utils import remove_termination_events, write_sequence_to_file, explored_beyond_boundaries
 from framework.utils import adb
-from allpairspy import AllPairs
 
 logger = logging.getLogger(__name__)
 
@@ -19,64 +18,36 @@ class SequenceGenerator:
                  event_selection_strategy,
                  setup_strategy,
                  tear_down_strategy,
-                 executor_factory):
+                 executor_factory,
+                 context_strategy):
         self.database = database
         self.termination_criterion = termination_criterion
         self.event_selection_strategy = event_selection_strategy
         self.setup_strategy = setup_strategy
         self.tear_down_strategy = tear_down_strategy
         self.executor_factory = executor_factory
+        self.context_strategy = context_strategy
 
-    def generate(self, sequence_info, app_package_name, suite_id, adbpath):
+    def generate(self, sequence_info, app_package_name, suite_id, adbpath, context_list, context_covering_array, executed_list, idx):
         current_state = sequence_info.start_state
         executor = self.executor_factory(driver=sequence_info.driver)
-        # Reset all context variables
-        executor.executeContext("CHANGE_LANDSCAPE")
-        executor.executeContext("BATTERY_HIGH")
-        executor.executeContext("POWER_ON")
-        executor.executeContext("INTERNET_CONNECTED")
-        # Below line uses variables for conext aware testing
-        # randlist = ["CHANGE_LANDSCAPE","CHANGE_PORTRAIT","POWER_ON","POWER_OFF","BATTERY_HIGH","BATTERY_LOW","INTERNET_CONNECTED","INTERNET_DISCONNECTED"]
-        # Added below lines for Rand-Start Context events -- comment if not doing  rand-start context aware testing
-        # event = random.choice(randlist)
-        # executor.executeContext(event)
-        # End of Rand-Start
-        # Iterative-Start Context -- comment if not using iterative start context aware testing
-        # executed_events, idx = [], 0
-        # if len(executed_events) <= len(randlist):
-        #    event = randlist[idx]
-        #    executor.executeContext(event)
-        #    idx += 1
-        #    executed_events.append(event)
-        # else:
-        #    idx = 0
-        #    executed_events = []
-        # End of Iterative Start
-        context_events = []
-        cevents = [["CHANGE_LANDSCAPE","CHANGE_PORTRAIT"],["POWER_ON","POWER_OFF"],["BATTERY_HIGH","BATTERY_LOW"],["INTERNET_CONNECTED","INTERNET_DISCONNECTED"]]
-        executed_list = {}
-        for val in AllPairs(cevents):
-            context_events.append(val)
+        if self.context_strategy == "random_start":
+            c_event = random.choice(context_list)
+            c_events = [1 if val == c_event else 0 for val in context_list]
+            executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
+
+        elif self.context_strategy == "iterative_start":
+            if idx >= len(context_list):
+                idx = 0
+            c_event = context_list[idx]
+            idx += 1
+            c_events = [1 if val == c_event else 0 for val in context_list]
+            executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
         while not self.termination_criterion(database=self.database,
                                              sequence_hash=generate_sequence_hash(sequence_info.events),
                                              suite_id=suite_id,
                                              event_count=len(sequence_info.events)):
-            # Uncomment below lines for pairwise context algorithm --added by SP
-            # if not context_events:
-            #     for val in AllPairs(cevents):
-            #         context_events.append(val)
-            # combination = context_events[0]
-            # context_events.remove(combination)
-            # for context_event in combination:
-            #     context_event = str(context_event)
-            #     executor.executeContext(context_event)
-            # End of pairwise context algorithm --added by SP
-            
-            # for val in AllPairs(cevents):
-            # 	context_events.append(val)
-            logger.debug("-------------called process next event---------")
-            next_event_info = self.process_next_event(sequence_info, suite_id, executor, executed_list, context_events)
-            # logger.debug("-------------context events are {}".format(context_events))
+            next_event_info = self.process_next_event(sequence_info, suite_id, executor, context_list, context_covering_array, executed_list)
             # next_event_info = self.process_next_event(sequence_info, suite_id, executor)
             current_state = next_event_info.resulting_state
             self.update_knowledge_base(suite_id, next_event_info, sequence_info)
@@ -111,37 +82,32 @@ class SequenceGenerator:
 
         SequenceInfo = collections.namedtuple("SequenceInfo", ["driver", "events", "start_time", "start_state"])
         return SequenceInfo(driver, events, start_time, start_state)
-        
 
-    def process_next_event(self, sequence_info, suite_id, executor, executed_list, context_events):
+
+    def process_next_event(self, sequence_info, suite_id, executor, context_list, context_covering_array, executed_list):
         selected_event = self.choose_event(sequence_info, suite_id)
-        sel_event_code = generate_event_hash(selected_event)
-        # logger.debug("selected event and type {} {}".format(selected_event,sel_event_code))
-        if sel_event_code in executed_list:
-            # logger.debug("---------------------1 {}".format(executed_list[sel_event_code]))
-            diff =  [i for i in context_events if i not in executed_list[sel_event_code]]
-            # logger.debug("diff is {}".format(diff))
-            if diff:
-                # logger.debug("2")
-                executed_list[sel_event_code].append(diff[0])
-                for cevent in diff[0]:
-                    cevent = str(cevent)
-                    executor.executeContext(cevent)
-        else:
-            # logger.debug("3")
-            executed_list[sel_event_code] = [context_events[0]]
-            for cevent in context_events[0]:
-                # logger.debug("4")
-                cevent = str(cevent)
-                executor.executeContext(cevent)
-        			
+        if self.context_strategy == "pairs_interleaved":
+            sel_event_code = generate_event_hash(selected_event)
+            if sel_event_code in executed_list:
+                diff =  [i for i in context_covering_array if i not in executed_list[sel_event_code]]
+                logger.debug("-----------------Executed list in pairs interleaved is {}-------------- ".format(executed_list))
+                if diff:
+                    selected_covering_array = random.choice(diff)
+                    c_events = [1 if c_event in selected_covering_array else 0 for c_event in context_list]
+                    executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
+                    executed_list[sel_event_code].append(selected_covering_array)
+            else:
+                selected_covering_array = random.choice(context_covering_array)
+                executed_list[sel_event_code] = [selected_covering_array]
+                c_events = [1 if c_event in selected_covering_array else 0 for c_event in context_list]
+                executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
+
         logger.debug("SEQUENCE--------------PROCESS NEXT EVENT--------------")
         executor.execute(selected_event)
         resulting_state = get_current_state(sequence_info.driver)
         complete_event = synthesize(selected_event, resulting_state)
         event_hash = generate_event_hash(complete_event)
         NextEventInfo = collections.namedtuple("NextEventInfo", ["event", "event_hash", "resulting_state"])
-        # logger.debug("^^^^^^^^^^^^^^^^^^^^^^^^^ executed events {}".format(executed_list))
 
         return NextEventInfo(complete_event, event_hash, resulting_state)
 
@@ -181,3 +147,4 @@ class SequenceGenerator:
 
         logger.debug("Beginning test case teardown.")
         self.tear_down_strategy(sequence_info.driver)
+
