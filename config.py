@@ -7,6 +7,7 @@ TOOL_PATH = "/home/UNT/sp0809/git/autodroid"
 EVENT_INTERVAL = 2
 TEST_SETUP = "Standard"
 EVENT_SELECTION_STRATEGY = "frequency_weighted"
+CONTEXT_STRATEGY = "pairs_interleaved"
 TERMINATION_CRITERION = "Probabilistic"
 COMPLETION_CRITERION = "Time"
 TEST_TEARDOWN = "Standard"
