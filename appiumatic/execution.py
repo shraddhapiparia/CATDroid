@@ -27,23 +27,8 @@ class Executor:
 
         time.sleep(self.event_interval)
 
-    def executeContext(self, event):
+    def execute_context(self, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high):
         adbpath = config.ADB_PATH
-        if event == "CHANGE_PORTRAIT":
-            adb.change_portrait(adbpath)
-        if event == "CHANGE_LANDSCAPE":
-            adb.change_landscape(adbpath)
-        if event == "POWER_ON":
-            adb.power_on(adbpath)
-        if event == "POWER_OFF":
-            adb.power_off(adbpath)
-        if event == "INTERNET_CONNECTED":
-            adb.internet_connected(adbpath)
-        if event == "INTERNET_DISCONNECTED":
-            adb.internet_disconnected(adbpath)
-        if event == "BATTERY_LOW":
-            adb.battery_low(adbpath)
-        if event == "BATTERY_HIGH":
-            adb.battery_high(adbpath)
+        adb.change_context(adbpath, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high)
 
         time.sleep(self.event_interval)
