@@ -1,5 +1,5 @@
 from appium import webdriver
-from framework.utils.adb import clear_sdcard_data
+from framework.utils.adb import clear_sdcard_data, change_context
 
 
 def standard(apk_path, adb_path, device_id):
