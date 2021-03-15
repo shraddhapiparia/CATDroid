@@ -3,7 +3,9 @@ from framework.utils.adb import clear_sdcard_data
 
 
 def standard(apk_path, adb_path, device_id):
-    clear_sdcard_data(adb_path, device_id)
+    clear_sdcard_data(adb_path, device_id)    
+    # Setting initial context as portrait, internet on, battery high and power connected
+    change_context(adb_path, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1)
     driver = _get_driver(apk_path, device_id)
     return driver
 
