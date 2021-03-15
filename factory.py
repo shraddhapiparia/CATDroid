@@ -51,12 +51,14 @@ def create_sequence_generator(database, text_values):
     executor_factory = partial(create_executor,
                                event_interval=config.EVENT_INTERVAL,
                                text_values=text_values)
+    context_strategy = config.CONTEXT_STRATEGY
     sequence_generator = SequenceGenerator(database,
                                            termination_criterion,
                                            event_selection_strategy,
                                            setup_strategy,
                                            tear_down_strategy,
-                                           executor_factory)
+                                           executor_factory,
+                                           context_strategy)
     return sequence_generator
 
 
@@ -74,4 +76,3 @@ def retrieve_text_values():
 
 def create_directories(suite_creation_time):
     return create_output_directories(config.APP_PACKAGE_NAME, config.OUTPUT_PATH, suite_creation_time)
-
