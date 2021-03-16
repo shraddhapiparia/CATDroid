@@ -42,4 +42,29 @@ def get_logs(adb_path, log_file_path, process_id, device_id):
 def change_context(adb_path, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high):
     change_context_cmd = "{} {} {} {} {} {} {} {} {} {} {} {} {}".format(Script.CHANGE_CONTEXT, adb_path, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high)
     subprocess.call(change_context_cmd, shell=True)
-    logger.info("Successfully changed context")
+    printval = ""
+    if ch_portrait:
+        printval += " Potrait mode, "
+    if ch_landscape:
+        printval += " Lanscape mode, "
+    if power_on:
+        printval += " Power ON, "
+    if power_off:
+        printval += " Power OFF, "
+    if internet_on:
+        printval += " Internet ON, "
+    if internet_off:
+        printval += " Internet OFF, "
+    if battery_1pc:
+        printval += " Battery 1PC, "
+    if battery_2pc:
+        printval += " Battery 2PC, "
+    if battery_5pc:
+        printval += " Battery 5PC, "
+    if battery_15pc:
+        printval += " Battery 15PC, "
+    if battery_ok:
+        printval += " Battery OK, "
+    if battery_high:
+        printval += " Battery HIGH, "
+    logger.info("Successfully changed context {}".format(printval))
