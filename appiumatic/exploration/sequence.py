@@ -19,36 +19,23 @@ class SequenceGenerator:
                  setup_strategy,
                  tear_down_strategy,
                  executor_factory,
-                 context_strategy):
+                 context_sequence):
         self.database = database
         self.termination_criterion = termination_criterion
         self.event_selection_strategy = event_selection_strategy
         self.setup_strategy = setup_strategy
         self.tear_down_strategy = tear_down_strategy
         self.executor_factory = executor_factory
-        self.context_strategy = context_strategy
+        self.context_sequence = context_sequence
 
-    def generate(self, sequence_info, app_package_name, suite_id, adbpath, context_list, context_covering_array, executed_list, idx):
+    def generate(self, sequence_info, app_package_name, suite_id):
         current_state = sequence_info.start_state
         executor = self.executor_factory(driver=sequence_info.driver)
-        if self.context_strategy == "random_start":
-            c_event = random.choice(context_list)
-            c_events = [1 if val == c_event else 0 for val in context_list]
-            executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
-
-        elif self.context_strategy == "iterative_start":
-            if idx >= len(context_list):
-                idx = 0
-            c_event = context_list[idx]
-            idx += 1
-            c_events = [1 if val == c_event else 0 for val in context_list]
-            executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
         while not self.termination_criterion(database=self.database,
                                              sequence_hash=generate_sequence_hash(sequence_info.events),
                                              suite_id=suite_id,
                                              event_count=len(sequence_info.events)):
-            next_event_info = self.process_next_event(sequence_info, suite_id, executor, context_list, context_covering_array, executed_list)
-            # next_event_info = self.process_next_event(sequence_info, suite_id, executor)
+            next_event_info = self.process_next_event(sequence_info, suite_id, executor)
             current_state = next_event_info.resulting_state
             self.update_knowledge_base(suite_id, next_event_info, sequence_info)
             sequence_info.events.append(next_event_info.event)
@@ -65,11 +52,11 @@ class SequenceGenerator:
 
         return int(time.time() - sequence_info.start_time)
 
-    def initialize(self):
+    def initialize(self, apk_path, adb_path, device_id):
         logger.debug("-------------INSIDE INITIALIZED----------.")
         start_time = int(time.time())
         logger.debug("-------------START TIME----------.")
-        driver = self.setup_strategy()
+        driver = self.setup_strategy(apk_path=apk_path, adb_path=adb_path, device_id=device_id, context_sequence=self.context_sequence)
         logger.debug("-------------SET UP STRATEGY----------.")
         launch_event = create_launch_event()
         logger.debug("-------------LAUNCH EVENT CREATED----------.")
@@ -84,25 +71,10 @@ class SequenceGenerator:
         return SequenceInfo(driver, events, start_time, start_state)
 
 
-    def process_next_event(self, sequence_info, suite_id, executor, context_list, context_covering_array, executed_list):
+    def process_next_event(self, sequence_info, suite_id, executor):
         selected_event = self.choose_event(sequence_info, suite_id)
-        if self.context_strategy == "pairs_interleaved":
-            sel_event_code = generate_event_hash(selected_event)
-            if sel_event_code in executed_list:
-                diff =  [i for i in context_covering_array if i not in executed_list[sel_event_code]]
-                logger.debug("-----------------Executed list in pairs interleaved is {}-------------- ".format(executed_list))
-                if diff:
-                    selected_covering_array = random.choice(diff)
-                    c_events = [1 if c_event in selected_covering_array else 0 for c_event in context_list]
-                    executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
-                    executed_list[sel_event_code].append(selected_covering_array)
-            else:
-                selected_covering_array = random.choice(context_covering_array)
-                executed_list[sel_event_code] = [selected_covering_array]
-                c_events = [1 if c_event in selected_covering_array else 0 for c_event in context_list]
-                executor.execute_context(c_events[0], c_events[1], c_events[2], c_events[3], c_events[4], c_events[5], c_events[6], c_events[7], c_events[8], c_events[9], c_events[10], c_events[11])
-
         logger.debug("SEQUENCE--------------PROCESS NEXT EVENT--------------")
+        # check if the returned event is context or GUI and execute it accordingly
         executor.execute(selected_event)
         resulting_state = get_current_state(sequence_info.driver)
         complete_event = synthesize(selected_event, resulting_state)
@@ -147,4 +119,3 @@ class SequenceGenerator:
 
         logger.debug("Beginning test case teardown.")
         self.tear_down_strategy(sequence_info.driver)
-
