@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 def clear_sdcard_data(adb_path, device_id):
     clear_sdcard_cmd = "{} {} {}".format(Script.CLEAR_DATA, adb_path, device_id)
     subprocess.check_call(clear_sdcard_cmd, shell=True)
-    # logger.info("Successfully cleared SD card data.")
+    logger.info("Successfully cleared SD card data.")
 
 
 def clear_logs(adb_path, device_id):
@@ -37,34 +37,28 @@ def get_logs(adb_path, log_file_path, process_id, device_id):
     get_logs_cmd = "{} {} {} {} {}".format(Script.GET_LOGS, adb_path, log_file_path, process_id, device_id)
     subprocess.call(get_logs_cmd, shell=True)
     logger.info("Successfully retrieved log file: {}".format(log_file_path))
-
+    
 # Added by Shraddha Piparia for Context actions
-def change_context(adb_path, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high):
-    change_context_cmd = "{} {} {} {} {} {} {} {} {} {} {} {} {}".format(Script.CHANGE_CONTEXT, adb_path, ch_landscape, ch_portrait, power_on, power_off, internet_on, internet_off, battery_1pc, battery_2pc, battery_5pc, battery_15pc, battery_ok, battery_high)
+def change_context(adb_path, ch_orientation, ch_power, ch_internet, ch_battery):
+    change_context_cmd = "{} {} {} {} {}".format(Script.CHANGE_CONTEXT, adb_path, ch_orientation, ch_power, ch_internet, ch_battery)
     subprocess.call(change_context_cmd, shell=True)
     printval = ""
-    if ch_portrait:
+    if ch_orientation == 0:
         printval += " Potrait mode, "
-    if ch_landscape:
+    if ch_orientation == 1:
         printval += " Lanscape mode, "
-    if power_on:
-        printval += " Power ON, "
-    if power_off:
+    if ch_power == 0:
         printval += " Power OFF, "
-    if internet_on:
-        printval += " Internet ON, "
-    if internet_off:
+    if ch_power == 1:
+        printval += " Power ON, "
+    if ch_internet == 0:
         printval += " Internet OFF, "
-    if battery_1pc:
-        printval += " Battery 1PC, "
-    if battery_2pc:
-        printval += " Battery 2PC, "
-    if battery_5pc:
-        printval += " Battery 5PC, "
-    if battery_15pc:
-        printval += " Battery 15PC, "
-    if battery_ok:
-        printval += " Battery OK, "
-    if battery_high:
-        printval += " Battery HIGH, "
+    if ch_internet == 1:
+        printval += " Internet ON, "
+    if ch_battery == 0:
+        printval += " Battery LOW "
+    if ch_battery == 1:
+        printval += " Battery OKAY "
+    if ch_battery == 2:
+        printval += " Battery HIGH "
     logger.info("Successfully changed context {}".format(printval))
