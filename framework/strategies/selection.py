@@ -60,57 +60,5 @@ def frequency_weighted(events, database, suite_id):
     return selected_event
 
 
-## Added by kk
 
-def q_learning(events, database, suite_id):
-    assert events is not None and suite_id is not None and database is not None
 
-    logger.info("Making q_learning based selection from {} available events.".format(len(events)))
-
-    home_btn_prob = 0.5
-    hash_to_events_map = selection_utils.create_hash_to_events_map(events)
-    event_hashes = hash_to_events_map.keys()
-    event_frequencies = database.get_event_frequencies(event_hashes, suite_id)
-    event_qvalues = database.get_event_values(event_hashes, suite_id)
-
-    if random.random() >= home_btn_prob:
-        for event_hash, event_frequency in event_frequencies.items():
-            if event_frequency == 0:
-                event_qvalues[event_hash] = 500
-                database.update_event_qvalue(suite_id, event_hash, 500)
-
-        selected_event = selection_utils.get_max_value_event(hash_to_events_map, event_qvalues) # Todo
-    return selected_event
-
-# context algorithms added by Shraddha Piparia
-def random_start_context(events, database, suite_id):
-    assert events is not None and suite_id is not None and database is not None
-
-    logger.info("Making random GUI selection and random context from {} available events.".format(len(events)))
-
-    selected_event = random.choice(events)
-    c_event = "dnfjkdh"
-
-    return [selected_event,c_event]
-
-def iterative_start_context(events, database, suite_id):
-    assert events is not None and suite_id is not None and database is not None
-
-    return selected_event
-
-def pairs_context(events, database, suite_id):
-    assert events is not None and suite_id is not None and database is not None
-    # pairwise only context
-    return selected_event
-
-def pairs_interleaved(events, database, suite_id):
-    assert events is not None and suite_id is not None and database is not None
-    # pairwise combinations of context and GUI
-    return selected_event
-
-    # Code for EXECUTE Selected event
-    # Update Test suite
-    # if selected event exits appiumatic
-        # update reward to 0
-        # set_Qvalue to 0
-    # Calculate and set q_value
