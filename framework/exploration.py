@@ -4,7 +4,7 @@ import os
 from selenium.common.exceptions import WebDriverException
 from appiumatic.hashing import generate_sequence_hash
 from framework.utils import adb
-from allpairspy import AllPairs
+
 logger = logging.getLogger(__name__)
 
 
@@ -40,18 +40,14 @@ class Explorer:
     def explore(self, suite_info, output_paths):
         suite_duration = 0
         sequence_count = 0
-        context_list = ["CHANGE_LANDSCAPE","CHANGE_PORTRAIT","POWER_ON","POWER_OFF","INTERNET_CONNECTED","INTERNET_DISCONNECTED","BATTERY_1PC","BATTERY_2PC","BATTERY_5PC","BATTERY_15PC","BATTERY_OK","BATTERY_HIGH"]
-        allpairs_input = [["CHANGE_LANDSCAPE","CHANGE_PORTRAIT"],["POWER_ON","POWER_OFF"],["INTERNET_CONNECTED","INTERNET_DISCONNECTED"],["BATTERY_1PC","BATTERY_2PC","BATTERY_5PC","BATTERY_15PC","BATTERY_OK","BATTERY_HIGH"]]
-        executed_list = {}
-        context_covering_array = []
-        idx = 0
-        for val in AllPairs(allpairs_input):
-             context_covering_array.append(val)
         while not self.completion_criterion(suite_duration=suite_duration, sequence_count=sequence_count):
             logger.debug("Activity name is {}".format(self.app_info.apk_path))
             try:
                 logger.debug("---------------INSIDE TRY BLOCK----------------------------")
-                sequence_info = self.sequence_generator.initialize()
+                sequence_info = self.sequence_generator.initialize(apk_path=self.app_info.apk_path,
+                                                                    adb_path=self.adb_info.path,
+                                                                    device_id=self.adb_info.device_id)
+
                 logger.debug("--------------SEQUENCE GENERATOR INITIALIZED---------------")
 
 
@@ -61,10 +57,7 @@ class Explorer:
                 logger.debug("---------------PROCESS ID ASSIGNED-----------------------")
                 sequence_duration = self.sequence_generator.generate(sequence_info,
                                                                      self.app_info.package_name,
-                                                                     suite_info.id, self.adb_info.path,
-                                                                     context_list,
-                                                                     context_covering_array,
-                                                                     executed_list, idx)
+                                                                     suite_info.id)
                 logger.debug("--------------Sequence Generated-------------------------")
             except WebDriverException as e:
                 print(e)
