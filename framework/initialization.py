@@ -33,10 +33,14 @@ def tear_down_strategy(strategy, adb_path, device_id):
     raise InvalidParameter("Invalid specification '{}' for test case tear down.")
 
 
-def setup_strategy(strategy, apk_path, adb_path, device_id):
+def setup_strategy(strategy, apk_path, adb_path, device_id, context_sequence):
     strategy = strategy.lower()
     if strategy == "standard":
         return partial(setup.standard, apk_path=apk_path, adb_path=adb_path, device_id=device_id)
+    elif strategy == "random_start":
+        return partial(setup.random_start, apk_path=apk_path, adb_path=adb_path, device_id=device_id, context_sequence=context_sequence)
+    elif strategy == "iterative_start":
+        return partial(setup.iterative_start, apk_path=apk_path, adb_path=adb_path, device_id=device_id, context_sequence=context_sequence)
 
     raise InvalidParameter("Invalid specification '{}' for test case setup.")
 
